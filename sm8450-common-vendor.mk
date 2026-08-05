@@ -298,7 +298,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.soter@1.0-impl \
     vendor.qti.hardware.wifidisplaysession@1.0-impl \
     vulkan.adreno \
-    jcos_nq_client \
+    jcos_nq_client-v1 \
     lib-imscommon \
     lib-imsdpl \
     lib-imsqimf \
@@ -627,7 +627,7 @@ PRODUCT_PACKAGES += \
     libxlog \
     libxml \
     libxtadapter \
-    ls_nq_client \
+    ls_nq_client-v1 \
     libwvdrmengine \
     qcrilInterfaces \
     qcrilMarshal \
@@ -639,7 +639,7 @@ PRODUCT_PACKAGES += \
     qtiPeripheralMgr \
     qtiril-utils \
     qtiwakelock \
-    se_nq_extn_client \
+    se_nq_extn_client-v1 \
     sensors.ssc \
     sensors.touch.detect \
     sensors.ultrasoundproximity \
@@ -843,7 +843,6 @@ PRODUCT_PACKAGES += \
     IWlanService \
     SoterService \
     TimeService \
-    com.qualcomm.qti.gpudrivers.taro.api31 \
     uimgbaservice \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
@@ -880,7 +879,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
-    android.hardware.security.keymint-service-qti.xml \
+    android.hardware.security.keymint-service-qti-rkp.xml \
     c2_manifest_vendor.xml \
     c2_manifest_vendor_audio.xml \
     dataconnection-saidl.xml \
